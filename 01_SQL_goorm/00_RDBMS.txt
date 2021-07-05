@@ -1,3 +1,5 @@
+/* Basics */
+
 // MySQL DB-Start
 mysql-ctl start;
 
