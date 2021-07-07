@@ -22,9 +22,6 @@ DESCRIBE users;
 INSERT INTO users(user_name,first_name,last_name) VALUES ("kall","Karl","Arch");
 INSERT INTO users(user_name,first_name,last_name) VALUES ("hanz","Hans","Meier");
 INSERT INTO users(user_name,first_name,last_name) VALUES ("schorsch","Georg","Götz");
-
-# Gleiche Usernamen werden nicht mehr zugelassen! / UNIQUE
-INSERT INTO users(user_name,first_name,last_name) VALUES ("kalle","Karl","Ramseier");
 INSERT INTO users(user_name,first_name,last_name) VALUES ("matze","Matthias","Gonz");
 
 SELECT * FROM users;
