@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS ccc_list; #Tab lรถschen, falls vorhanden
 
 CREATE TABLE IF NOT EXISTS ccc_list # Tab. anlegen
 (
-	id INT(3) NOT NULL PRIMARY KEY, #ID
+	id INT NOT NULL PRIMARY KEY, #ID
     c_name VARCHAR(50) NOT NULL, #Name des Unternehmens
     ticker VARCHAR(5) NOT NULL, #DOW Ticker-Symbol
     sector VARCHAR(50) NOT NULL, #Industrie-Sektor
@@ -32,4 +32,5 @@ FIELDS TERMINATED BY ";"
 LINES TERMINATED BY "\n"
 IGNORE 1 LINES;
 
-SELECT * FROM ccc_list LIMIT 5; #Testausgabe auf 5 begrenzt
+SELECT * FROM ccc_list; #LIMIT 30; #Testausgabe auf 5 begrenzt
+
