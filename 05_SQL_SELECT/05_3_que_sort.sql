@@ -31,7 +31,7 @@ SELECT
     no_yrs "Jahre ++"    
 FROM
     ccc_list
-ORDER BY price DESC # beginnend mit günstigster Aktie
+ORDER BY price DESC, no_yrs ASC # beginnend mit günstigster Aktie
 #ORDER BY ticker DESC
 #ORDER BY sector,industry ASC
 #ORDER BY sector ASC,industry DESC
